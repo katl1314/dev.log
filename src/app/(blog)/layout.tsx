@@ -6,9 +6,7 @@ export default async function Layout({ children }: PropsWithChildren) {
 	return (
 		<>
 			<Header />
-			<PageLayout>
-				<>{children}</>
-			</PageLayout>
+			<PageLayout>{children}</PageLayout>
 		</>
 	);
 }
